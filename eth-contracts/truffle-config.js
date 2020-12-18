@@ -22,6 +22,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "merry harvest layer injury wasp render marine peanut hockey tuna license extra";
 
 module.exports = {
   /**
@@ -48,7 +49,7 @@ module.exports = {
     },
 
     rinkeby: {
-      provider: () => new HDWalletProvider('mnemonics', `infura_access_point_link`),
+      provider: () => new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/af0d21e9762e444d953ae855d28cb134"),
         network_id: 4,       // rinkeby's id
         gas: 4500000,        // rinkeby has a lower block limit than mainnet
         gasPrice: 10000000000
