@@ -1,4 +1,4 @@
-# Decentralized Real Estate Marketplace
+# Real_Estate_Management_System
 
 - A property is represented as NFT721 token on Ethereum Rinkey testnet
     - Contract Address: https://rinkeby.etherscan.io/address/0x1898e139aa999ba3d7650b0f74e2d6e53a41fdda
