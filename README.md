@@ -33,7 +33,7 @@ Implements Succinct Zero-knowledge proofs via Zokrates.
 
 1. cd into project directory & install modules
 
-        cd Blockchain-Capstone-master
+        cd Real_State_Management_System
 
         npm install
 
